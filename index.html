@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+    <title>Hairstyle</title>
+    <style>
+        body{
+        
+            background-image:url("imeg19.png");
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position-x: left;
+        }
+        nav{
+    display: flex;
+            position: sticky;
+            Font-size:18px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration-color: black;
+            transition:3s;
+            align-items: center;
+            justify-content: right;
+            top: 20px;
+            background-blend-mode: darken;
+            background-size: cover;
+            color: white;
+            padding: 10px 5px;
+            list-style-type:none;
+            
+        }
+        nav a {
+            display: block;
+            color:black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            background-size:cover;
+        }
+        #home {
+           
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 100px;
+            margin: 50px auto;
+            max-width: 500px;
+            border-radius: 8px;
+            font-size:20px;
+            background-color:#f4d0d4;
+            opacity:0.7;
+        }
+        #about{
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            padding:100px;
+            justify-content:center;
+            margin:70px auto;
+            border-radius:8px;
+            max-width: 600px;
+            font-size: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width:50%;
+            background-color: #f4d0d4;
+            opacity:0.7;
+        }
+        #contact {
+    background-color: #f4d0d4;
+    text-align: center;
+    max-width: 750px;
+    padding: 20px;
+    margin: 70px auto;
+    font-size: 20px;
+    opacity:0.7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#contact ul{
+    list-style-type: none;
+    list-style: none;
+}
+
+#contact h1 {
+    margin-top: 0;
+}
+
+.contact-footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #555;
+}
+
+.contact-footer p {
+    margin: 20px 0;
+    font-size:25px;
+}
+
+.contact-footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-footer a:hover {
+    text-decoration: underline;
+}
+    </style>
+    </head>
+    <body>
+    <nav>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="skin.html">Skin Care</a></li>
+        <li><a href="#">Order Details</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </nav>
+    <div id="home">
+       <h1>"Shop Beauty Products Online"</h1> 
+       <p><b>Browse and buy top beauty products online, from skincare to makeup.</b></p>
+       </div>
+       <div id="about">
+        <h1>About Us</h1>
+        <p><b>Introduction. Cosmetics are pharmaceutical products that are used for improving skin appearance and body odor. These products are available in various forms, ranging from lotions, creams, powders, and so forth. Cosmetics are used for cleansing, protecting, and moisturizing the skin.</b></p>
+       </div>
+       <div id="contact">
+        <h1><b>Contact Us</b></h1>
+        <p><b>Feel free to reach out to us via the following methods:</b></p>
+        <ul>
+            <li><b>Email: contact@example.com</b></li>
+            <li><b>Phone: (123) 456-7890</b></li>
+        </ul>
+        <footer class="contact-footer">
+            <p><b>&copy; 2024 Your Company Name. All rights reserved.</b></p>
+            <p><b>1234 Your Address, City, Country</b></p>
+        </footer>
+       </div>  
+    </body>
+</html>
